@@ -1,6 +1,6 @@
 <?php
 
-namespace brazayk\toxic;
+namespace NurAzliYT\AntiToxic;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
