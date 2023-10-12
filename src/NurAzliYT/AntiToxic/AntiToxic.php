@@ -27,7 +27,7 @@ class AntiToxic extends PluginBase implements Listener {
 
         foreach ($blockedWords as $blockedWord) {
             if (strpos($lowercaseMessage, $blockedWord) !== false) {
-                $event->getPlayer()->sendMessage("§¢§cPesan yang Anda kirimkan tidak diperbolehkan.");
+                $event->getPlayer()->sendMessage("§¢§c The message you sent is not allowed.");
                 $event->setMessage(""); // Mengganti pesan yang akan dikirim menjadi string kosong
                 break;
             }
